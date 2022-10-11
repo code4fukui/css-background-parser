@@ -14,7 +14,9 @@ _This library is still a work in progress and is probably not very useful yet. I
 
 ## Usage
 
-Available on npm as `css-background-parser`, or in the browser as a global called `cssBgParser`
+```js
+import { cssBgParser } from "https://code4fukui.github.io/css-background-parser/cssBgParser.js";
+```
 
 ### Methods
 
