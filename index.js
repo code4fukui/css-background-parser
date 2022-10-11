@@ -159,4 +159,7 @@
     if (typeof module !== 'undefined' && module.exports !== undefined) return module.exports;
     // Global `cssBgParser`
     return (root.cssBgParser = {});
-})(this));
+})(globalThis));
+
+export const cssBgParser = globalThis.cssBgParser;
+
